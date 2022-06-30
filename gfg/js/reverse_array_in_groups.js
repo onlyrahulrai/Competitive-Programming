@@ -8,7 +8,7 @@ const swapElement = (array,first,second) => {
     array[second] = temp;
 }
 
-for(var i=0;i<n;i+=2){
+for(var i=0;i<n;i+=k){
     let j = Math.min((i+k-1),n-1)
     let st = i;
 
